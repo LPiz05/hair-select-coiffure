@@ -7,10 +7,18 @@ export default function Header() {
     <header className="Header">
       <nav>
         <ul className="topnav">
-          <li><img src={logo} alt="Logo" /></li>
-          <li><a href="#">Qui ?</a></li>
-          <li><a href="#">Quoi ?</a></li>
-          <li><a href="#">Où ?</a></li>
+          <li>
+            <img src={logo} alt="Logo" />
+          </li>
+          <li>
+            <a href="#qui">Qui ?</a>
+          </li>
+          <li>
+            <a href="#quoi">Quoi ?</a>
+          </li>
+          <li>
+            <a href="#ou">Où ?</a>
+          </li>
         </ul>
       </nav>
     </header>

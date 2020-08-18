@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0px;
+}
+
 .Header {
   font-size: 2em;
   font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva,
