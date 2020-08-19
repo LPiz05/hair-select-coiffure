@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./styles.css";
 import logo from "./logo.jpg";
 
@@ -11,13 +12,40 @@ export default function Header() {
             <img src={logo} alt="Logo" />
           </li>
           <li>
-            <a href="#qui">Qui ?</a>
+            <Link
+              activeClass="active"
+              className="who"
+              to="who"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Qui ?
+            </Link>
           </li>
           <li>
-            <a href="#quoi">Quoi ?</a>
+            <Link
+              activeClass="active"
+              className="what"
+              to="what"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Quoi ?
+            </Link>
           </li>
           <li>
-            <a href="#ou">Où ?</a>
+            <Link
+              activeClass="active"
+              className="where"
+              to="where"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Où ?
+            </Link>
           </li>
         </ul>
       </nav>

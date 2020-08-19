@@ -3,18 +3,14 @@ import ReactDOM from "react-dom";
 
 import App from "./App";
 import Header from "./Header";
-import Qui from "./Qui";
-import Quoi from "./Quoi";
-import Ou from "./Ou";
+import Content from "./Content";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <App />
-    <Qui />
-    <Quoi />
-    <Ou />
+    <Content />
   </React.StrictMode>,
   rootElement
 );
