@@ -6,3 +6,6 @@
 - react-scroll
 - aos
 - bootstrap
+- react-bootstrap
+- jquery
+- popper.js
