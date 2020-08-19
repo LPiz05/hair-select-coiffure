@@ -5,7 +5,6 @@
 - react-dom
 - react-scroll
 - aos
-- bootstrap
 - react-bootstrap
-- jquery
-- popper.js
+- jquery ??
+- popper.js ??
