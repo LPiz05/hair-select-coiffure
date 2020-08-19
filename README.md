@@ -4,3 +4,5 @@
 - react
 - react-dom
 - react-scroll
+- aos
+- bootstrap
