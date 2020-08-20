@@ -56,3 +56,15 @@ body {
     float: none;
   }
 }
+
+.Footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.alice-carousel ul li img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
