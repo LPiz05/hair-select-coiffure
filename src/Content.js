@@ -2,6 +2,13 @@ import React from "react";
 import { Element } from "react-scroll";
 import "../node_modules/bootstrap/scss/bootstrap.scss";
 import "./styles.css";
+import salon from "./img/salon.jpg";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import image1 from "./img/1.png";
+import image2 from "./img/2.png";
+import image3 from "./img/3.png";
+import image4 from "./img/4.png";
 
 export default function Content() {
   return (
@@ -10,7 +17,7 @@ export default function Content() {
         <Element name="who" className="element col-md-6">
           <div>
             <h1>Qui</h1>
-            <h2>
+            <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -21,13 +28,14 @@ export default function Content() {
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
-            </h2>
+            </p>
+            <img src={salon} alt="Logo" className="img-thumbnail" />
           </div>
         </Element>
         <Element name="what" className="element col-md-6">
           <div>
             <h1>Quoi</h1>
-            <h2>
+            <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -38,14 +46,20 @@ export default function Content() {
               containing Lorem Ipsum passages, and more recently with desktop
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
-            </h2>
+            </p>
+            <AliceCarousel autoPlay autoPlayInterval="3000">
+              <img src={image1} className="sliderimg" alt="" />
+              <img src={image2} className="sliderimg" alt="" />
+              <img src={image3} className="sliderimg" alt="" />
+              <img src={image4} className="sliderimg" alt="" />
+            </AliceCarousel>
           </div>
         </Element>
       </div>
       <Element name="where" className="element">
         <div className="Where">
           <h1>Où</h1>
-          <h2>
+          <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -55,7 +69,7 @@ export default function Content() {
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
-          </h2>
+          </p>
         </div>
       </Element>
     </React.Fragment>
