@@ -7,3 +7,4 @@
 - aos
 - bootstrap
 - node-sass
+- react-icons
