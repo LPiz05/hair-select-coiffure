@@ -8,3 +8,4 @@
 - bootstrap
 - node-sass
 - react-icons
+- react-alice-carousel
