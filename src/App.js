@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import coiffure from "./coiffure.png";
+import coiffure from "./img/coiffure.png";
 
 export default function App() {
   return (
