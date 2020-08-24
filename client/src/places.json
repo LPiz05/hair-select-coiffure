@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "ESGI, École Supérieure de Génie Informatique",
+    "latitude": "48.8491666",
+    "longitude": "2.3897343,15"
+  },
+  {
+    "id": 2,
+    "name": "Tour Eiffel",
+    "latitude": "48.8583736",
+    "longitude": "2.2922926,17"
+  },
+  {
+    "id": 3,
+    "name": "Hôtel de Ville de Paris",
+    "latitude": "48.8553603",
+    "longitude": "2.3460132"
+  }
+]
