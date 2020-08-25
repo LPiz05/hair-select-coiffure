@@ -20,6 +20,11 @@
 - cors
 - bcrypt
 
+# Software
+- [NodeJS](https://nodejs.org/en/download/)
+- [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+
+
 # How to install ? 
 
 ```bash
