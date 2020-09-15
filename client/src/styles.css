@@ -7,56 +7,6 @@ body {
   margin: 0px;
 }
 
-.Header {
-  font-size: 2em;
-  font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Geneva,
-    Helvetica, Arial, sans-serif;
-}
-.Header nav ul.topnav img {
-  width: 2em;
-  margin-top: 0.2em;
-}
-
-.Header nav ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.Header nav ul.topnav li {
-  float: left;
-  border-right: 1px solid #bbb;
-}
-.Header nav ul.topnav li:last-child {
-  border-right: none;
-}
-.Header nav ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.Header nav ul.topnav li a:hover:not(.active) {
-  background-color: #00519b;
-}
-
-@media screen and (max-width: 600px) {
-  .Header nav ul.topnav img {
-    width: 4em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.2em;
-  }
-  .Header nav ul.topnav li {
-    float: none;
-  }
-}
-
 .Footer a {
   color: white;
   text-decoration: none;
@@ -69,3 +19,5 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+
